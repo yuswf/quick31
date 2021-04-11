@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Image from "next/image";
-import MyComponent from 'react-mobile-preview'
-import 'react-mobile-preview/dist/index.css'
+
 
 class ImageComponent extends Component {
     constructor(props) {
@@ -9,7 +8,7 @@ class ImageComponent extends Component {
 
         this.state = {
             imgURL: "https://cdn.discordapp.com/attachments/789139747993681960/830727228304130088/pngwing.com.png",
-            text: "OTUZ  BİR  ÇEKMEK  İÇİN  TIKLA"
+            text: "O T U Z  B İ R  Ç E K M E K  İ Ç İ N  T I K L A"
         }
 
         this.changeImage = this.changeImage.bind(this);
@@ -18,7 +17,7 @@ class ImageComponent extends Component {
     changeImage = (e) => {
         this.setState({
             imgURL: "https://cdn.discordapp.com/attachments/789139747993681960/830727222310600724/pngwing.com_1.png",
-            text: "O T U Z  B İ R L E N D İ N"
+            text: "O T U Z   B İ R L E N D İ N"
         });
 
         document.getElementById('sound').play();
@@ -37,7 +36,6 @@ class ImageComponent extends Component {
                 <audio id="sound">
                     <source src="https://cdn.discordapp.com/attachments/789139747993681960/830757063814414356/woa.mp3" type="audio/mpeg" />
                 </audio>
-<MyComponent />
             </div>
         );
     }
