@@ -37,10 +37,10 @@ class ImageComponent extends Component {
                 <audio id="sound">
                     <source src="https://cdn.discordapp.com/attachments/789139747993681960/830757063814414356/woa.mp3" type="audio/mpeg" />
                 </audio>
+<MyComponent />
             </div>
         );
     }
-return <MyComponent />
 }
 
 export default ImageComponent;
