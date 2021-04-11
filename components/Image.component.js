@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Image from "next/image";
+import MyComponent from 'react-mobile-preview'
+import 'react-mobile-preview/dist/index.css'
 
 class ImageComponent extends Component {
     constructor(props) {
@@ -7,7 +9,7 @@ class ImageComponent extends Component {
 
         this.state = {
             imgURL: "https://cdn.discordapp.com/attachments/789139747993681960/830727228304130088/pngwing.com.png",
-            text: "O T U Z  B İ R  Ç E K M E K  İ Ç İ N  T I K L A"
+            text: "OTUZ  BİR  ÇEKMEK  İÇİN  TIKLA"
         }
 
         this.changeImage = this.changeImage.bind(this);
@@ -38,6 +40,7 @@ class ImageComponent extends Component {
             </div>
         );
     }
+return <MyComponent />
 }
 
 export default ImageComponent;
