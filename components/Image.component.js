@@ -6,7 +6,7 @@ class ImageComponent extends Component {
         super(props);
 
         this.state = {
-            imgURL: "/../public/images/first.png",
+            imgURL: "https://cdn.discordapp.com/attachments/789139747993681960/830727228304130088/pngwing.com.png",
             text: "O T U Z B İ R Ç E K M E K İ Ç İ N T I K L A"
         }
 
@@ -15,7 +15,7 @@ class ImageComponent extends Component {
 
     changeImage = (e) => {
         this.setState({
-            imgURL: "/../public/images/second.png",
+            imgURL: "https://cdn.discordapp.com/attachments/789139747993681960/830727222310600724/pngwing.com_1.png",
             text: "O T U Z B İ R L E N D İ N"
         });
 
@@ -25,11 +25,10 @@ class ImageComponent extends Component {
     render() {
         return (
             <div onClick={this.changeImage} className={"imgContainer"}>
-                <Image src={this.state.imgURL}
+                <img src={this.state.imgURL}
                        alt=""
                        width={350}
-                       height={350}>
-                </Image>
+                       height={350}/>
 
                 <h4 className={"text"}>{this.state.text}</h4>
 
