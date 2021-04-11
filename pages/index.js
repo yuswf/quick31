@@ -10,6 +10,7 @@ class Index extends Component {
             <div className={"container"}>
                 <Head>
                     <title>quick31.xyz | qwe</title>
+                    <meta name="description" content="31 cekmek artik cok kolay abiii.">
                 </Head>
 
                 <div className="title">
