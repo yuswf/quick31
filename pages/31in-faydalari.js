@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Head from 'next/head';
 import ChangeThemeComponent from "../components/ChangeTheme.component";
+import FooterComponent from "../components/Footer.component";
 
 class Sex extends Component {
     render() {
@@ -52,6 +53,7 @@ hr {
                              `}
 </style>
 <ChangeThemeComponent />
+<FooterComponent />
 </div>
         );
     }
