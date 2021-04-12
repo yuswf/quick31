@@ -7,6 +7,10 @@ class Sex1 extends Component {
     render() {
         return (
  <div className={"container"}>
+                    <title>quick31.xyz</title>
+                    <meta name="description" content="31'in zararları"/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                    <link rel="icon" href="https://media.discordapp.net/attachments/789139747993681960/830818760041562173/pngwing.com_2.png" />
         <h1>31'in zararları</h1>
 <ul>
 <li>Sosyallik Azalır</li>
