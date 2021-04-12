@@ -5,6 +5,7 @@ import Head from 'next/head';
 class Sex extends Component {
     render() {
         return (
+ <div className={"container"}>
         <h1>31'in faydaları</h1>
 <ul>
 <li>Stresi Azaltır</li>
@@ -48,6 +49,7 @@ hr {
   margin: 2em 0;
 }
 </style>
+</div>
         );
     }
 }
