@@ -51,6 +51,7 @@ hr {
 }
                              `}
 </style>
+<ChangeThemeComponent />
 </div>
         );
     }
