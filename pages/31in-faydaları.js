@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Head from 'next/head';
-
+import ChangeThemeComponent from "../components/ChangeTheme.component";
 
 class Sex extends Component {
     render() {
