@@ -30,7 +30,7 @@ class Sex extends Component {
 </ul>
 
 <style jsx>
-    {
+    {`
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 * { box-sizing: border-box; }
 body { 
@@ -49,7 +49,7 @@ hr {
   border-top: solid 1px fade(@tableColour,50%);
   margin: 2em 0;
 }
-                             }
+                             `}
 </style>
 </div>
         );
