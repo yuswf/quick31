@@ -1,0 +1,47 @@
+.main__title {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 30px;
+    margin-bottom: 120px;
+}
+
+.div__image {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .image {
+        margin-top: -30px;
+        width: 270px;
+    }
+
+    .main__title {
+        font-size: 50px;
+        letter-spacing: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .image {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 2400px) {
+    .image {
+        width: 400px;
+    }
+}
+
+.informations {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.informations1 {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+}
