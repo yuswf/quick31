@@ -8,7 +8,7 @@ function cek() {
     audio.autoplay = true;
 
     image.src = './assets/images/image2.png';
-    cek.innerText = '3 1 Ç E K İ L D İ';
+    cek.innerText = 'O T U Z B İ R L E N D İ N';
     document.body.appendChild(audio);
 }
 
