@@ -1,0 +1,119 @@
+.main {
+  background-color: #1d1d1d;
+
+  & > .section {
+    margin-top: 100px;
+    text-align: center;
+
+    & > .image {
+      width: 500px;
+    }
+
+    @media only screen and (max-width: 520px) {
+      & > .image {
+        width: 450px !important;
+      }
+    }
+
+    & > .title {
+      color: aliceblue;
+      font-weight: bold;
+      font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+      font-size: 50px;
+      word-spacing: 40px;
+      margin-bottom: 80px;
+    }
+
+    & > .text {
+      color: aliceblue;
+      font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+      font-size: 26px;
+      word-spacing: 15px;
+      cursor: pointer;
+    }
+
+    & > ul li {
+      margin-top: -10px;
+      padding: 20px;
+      font-size: 25px;
+      color: #9c9393;
+      list-style: none;
+
+      &:last-child {
+        color: #ded9d9 !important;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    & > .buttons {
+      & > .button {
+        position: absolute;
+        top: 5px;
+        color: white;
+        bottom: 5px;
+        font-size: 20px;
+        border: #1d1d1d;
+        background-color: #1f1e1e;
+        transition: 200ms background-color;
+
+        &:hover {
+          background-color: #1a1919;
+        }
+      }
+
+      & > .button2 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: white;
+        bottom: 5px;
+        font-size: 20px;
+        border: #1d1d1d;
+        background-color: #1f1e1e;
+        transition: 200ms background-color;
+
+        &:hover {
+          background-color: #1a1919;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    & > .buttons {
+      & > .button {
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        left: 15px;
+        bottom: 55px;
+        border: #1d1d1d;
+        background-color: #1f1e1e;
+        transition: 200ms background-color;
+
+        &:hover {
+          background-color: #1a1919;
+        }
+      }
+
+      & > .button2 {
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        left: 15px;
+        bottom: 15px;
+        border: #1d1d1d;
+        background-color: #1f1e1e;
+        transition: 200ms background-color;
+
+        &:hover {
+          background-color: #1a1919;
+        }
+      }
+    }
+  }
+}
+
+
