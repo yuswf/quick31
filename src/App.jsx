@@ -1,7 +1,7 @@
 function App() {
     return (
         <div className="app-d">
-            <h1>My App</h1>
+            <h1>quick31.vercel.app</h1>
         </div>
     );
 }
